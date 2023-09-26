@@ -1,0 +1,3 @@
+crear un importador de facturas de proveedor desde Excel. 
+
+La columna de producto siempre va a ser constante "MATERIA PRIMA" y el ID de proveedor queda pendiente que me digan de qué se trata (quizás no sea el id interno de la base de datos, podrías usar el nombre del proveedor para buscarlo).
