@@ -1,0 +1,92 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* import_supplier_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-20 15:50+0000\n"
+"PO-Revision-Date: 2023-08-20 15:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: import_supplier_invoice
+#: model_terms:ir.ui.view,arch_db:import_supplier_invoice.importar_factura_proveedor_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__excel
+msgid "Excel file (recommended format: xlsx) to import"
+msgstr "Archivo excel (Formato recomendado: xlsx) para importar"
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__id
+msgid "ID"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: model_terms:ir.ui.view,arch_db:import_supplier_invoice.importar_factura_proveedor_view
+msgid "Import"
+msgstr "Importar"
+
+#. module: import_supplier_invoice
+#: model:ir.ui.menu,name:import_supplier_invoice.menu_importar_factura
+msgid "Import invoice"
+msgstr "Importar factura"
+
+#. module: import_supplier_invoice
+#: model_terms:ir.ui.view,arch_db:import_supplier_invoice.importar_factura_proveedor_view
+msgid "Import supplier invoice"
+msgstr "Importar factura proveedor"
+
+#. module: import_supplier_invoice
+#: model:ir.actions.act_window,name:import_supplier_invoice.action_importar_factura_proveedor_wizard
+msgid "Import supplier invoices"
+msgstr "Importar facturas de proveedor"
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: model:ir.model.fields,field_description:import_supplier_invoice.field_import_supplier_invoice__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: import_supplier_invoice
+#: code:addons/import_supplier_invoice/wizard/import_supplier_invoice.py:0
+#, python-format
+msgid "Select an excel file!!"
+msgstr "Seleccione un archivo de excel"
+
+#. module: import_supplier_invoice
+#: model:ir.model,name:import_supplier_invoice.model_import_supplier_invoice
+msgid "import.supplier.invoice"
+msgstr ""

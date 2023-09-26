@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="importar_factura_proveedor_view" model="ir.ui.view">
+            <field name="name">Import supplier invoice</field>
+            <field name="model">import.supplier.invoice</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Import supplier invoice">
+                    <group>
+                        <group>
+                            <field name="excel"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button special="cancel" string="Cancel" class="btn btn-outline-primary"
+                                icon='fa-times-circle'/>
+                        <button name="importar" string="Import" type="object" class="btn btn-outline-primary"
+                                icon='fa-upload'/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <record id="action_importar_factura_proveedor_wizard" model="ir.actions.act_window">
+            <field name="name">Import supplier invoices</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">import.supplier.invoice</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem id="menu_importar_factura" name="Import invoice" parent="account.menu_finance_payables" action="action_importar_factura_proveedor_wizard" sequence="1"/>
+
+    </data>
+</openerp>
